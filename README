@@ -1,0 +1,9 @@
+# Bill-Upload Analyzer
+
+Upload a PDF/JPG/PNG utility bill → AI extracts key fields → returns a personalized community-solar savings estimate and downloadable PDF summary. Front-end is a static React SPA deployed via GitHub Pages; backend is a single Azure Function.
+
+## Quick start
+```bash
+npm install     # install deps
+npm run dev     # local Vite dev server
+npm run build   # production build to /dist
