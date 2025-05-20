@@ -7,3 +7,20 @@ Upload a PDF/JPG/PNG utility bill → AI extracts key fields → returns a perso
 npm install     # install deps
 npm run dev     # local Vite dev server
 npm run build   # production build to /dist
+npm run preview # preview production build
+```
+
+This repo currently provides a minimal starter page built with Vite, React and Tailwind. The upload workflow and Azure integration will come in later iterations.
+
+## Codespace
+
+You can also run the dev server in a GitHub Codespace. Create a new Codespace
+from the repo’s **Code** dropdown. The included `.devcontainer` config installs
+dependencies automatically. Once the container is ready, start the server:
+
+```bash
+npm run dev -- --host 0.0.0.0
+```
+
+The port `5173` is forwarded so you can preview the page in the Codespace
+browser tab.
