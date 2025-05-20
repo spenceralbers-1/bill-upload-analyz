@@ -7,3 +7,7 @@ Upload a PDF/JPG/PNG utility bill → AI extracts key fields → returns a perso
 npm install     # install deps
 npm run dev     # local Vite dev server
 npm run build   # production build to /dist
+npm run preview # preview production build
+```
+
+This repo currently provides a minimal starter page built with Vite, React and Tailwind. The upload workflow and Azure integration will come in later iterations.
